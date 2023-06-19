@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.back{
+    min-height: 100vh;
+    width: 100%;
+
+}
+@font-face{
+    font-family: "SF";
+    src: url("sf-pro-display_bold.ttf");
+}
+nav{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #454545;
+}
+
+.links{
+    width: 65%;
+}
+.links li{
+    list-style: none;
+    /* background-color: aliceblue; */
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.links a{
+    text-decoration: none;
+    color: #8E8E8E;
+    font-size: 14px;
+}
+.links i{
+    color: #FFFFFF;
+    font-family: 'Times New Roman';
+    font-size: 1.2vmax;
+}
+.logo{
+    width: 10vmax;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #2790F4; */
+}
+#menu{
+    display: none;
+}
+.fill1{
+    height: 6vh;
+    width: 100%;
+}
+.fill{
+    height:6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.fill p{
+    font-family: "SF";
+    font-size: 14px;
+    color: #474748;
+}
+.fill a{
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+.fill i{
+    margin-top: 1.3px;
+    font-size: 2.6vh;
+    color: rgb(0, 153, 255);
+}
+.page1{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "SF";
+}
+
+.page1 h1{
+    font-size: 3.5vmax;
+    font-weight: 400;
+}
+.page1 h2{
+    font-size:1.75vmax;
+    font-weight: 200;
+}
+.page1 a{
+    font-size: 2vmax;
+    text-decoration: none;
+    color: #2790F4;
+    line-height: 45px;
+}
+.page2{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+}
+.img{
+    height: 35vmax;
+    width: 65%;
+    background-image: url("https://www.apple.com/si/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.con{
+    margin-top: 3.5vmax;
+    color: white;
+    font-family: "SF";
+    text-align: center;
+}
+.con h1{
+    font-size: 4vmax;
+}
+.con h3{
+    font-size: 2vmax;
+    letter-spacing: 1px;
+}
+.link{
+    margin-top: 1.5vmax;
+    /* background-color: #454545; */
+}
+.link a{
+    font-size: 1.2vmax;
+    text-decoration: none;
+    color: #2790F4;;
+}
+.page3{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #FAFAFA;
+}
+.con1{
+    margin-top: 3.5vmax;
+    color: black;
+    font-family: "SF";
+    text-align: center;
+}
+.con1 h2{
+    font-size: 4vmax;
+}
+.con1 h4{
+    font-size: 2vmax;
+    letter-spacing: 1px;
+}
+.img1{
+    margin-top: 40px;
+    height: 32vmax;
+    width: 65%;
+    background-image: url("https://www.telstra.com.au/content/dam/tcom/library/cam-campaign/CAM_DCAEG48669_appleiPhone14Yellow_headerDesktopTall_692x500_2x.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.page4{
+    min-height: 153vh;
+    width: 100%;
+    display: flex;
+    background-color:white;
+}
+.left{
+    width: 50%;
+    text-align: center;
+    background-color: white;
+}
+.box1{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    color: black;
+    background-color:#FBFBFD;
+    /* background-color: #2790F4; */
+}
+.co{
+    padding-top: 3vmax;
+    font-family: "SF";
+    line-height: 30px;
+    /* background-color: #2790F4; */
+}
+.co a{
+    color: #2790F4;
+    text-decoration: none;
+}
+.img2 {
+    margin-top: 10px;
+    height: 30vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box2{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    color: white;
+    background-color:black;
+}
+.img3 {
+    height: 30vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/ipad-pro/promo_ipadpro__ch217v9v7no2_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    color: #FFFFFF;
+    background-color:black;
+}
+.img4 {
+    height: 29vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/homepod/promo_homepod__f7jnolq94m2y_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.right{
+   width: 50%;
+   text-align: center;
+}
+.box4{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    /* color: #FFFFFF; */
+    background-color:#F5F5F7;
+}
+.img5{
+    height: 30vmax;
+    width: 90%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/apple-watch-pride/promo_pride23__cnpic94fthle_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.box5{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    color: white;
+    background-color:black;
+}
+.img6{
+    height: 29vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    margin-top: 1.5vmax;
+    height: 40vmax;
+    width: 98%;
+    background-color:#FFFFFF;
+}
+.img7{
+    height: 29vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/apple-card/tile__cauwwcyyn9hy_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.co1{
+    padding-top: 3vmax;
+    font-family: "SF";
+    line-height: 30px;
+    /* background-color: #2790F4; */
+}
+.down{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 3vmax;
+}
+
+ul li{
+    list-style: none;
+}
+.down a{
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none; 
+    color: #8E8E8E;
+}
+.para{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para p{
+    width: 80%;
+}
+@media (max-width: 600px){
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #454545;
+    }
+    
+    .links{
+        width: 90%;
+        /* background-color: #2790F4; */
+    }
+    .links li{
+        display: none;
+    }
+    .links i{
+        color: #FFFFFF;
+        font-family: 'Times New Roman';
+        font-size: 1.5vmax;
+    }
+    #menu{
+        display: initial;
+    }
+    .fill{
+        height:7vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+    .fill p{
+        font-family: "SF";
+        font-size: 1.4vmax;
+        color: #474748;
+    }
+    .fill a{
+        color: rgb(0, 153, 255);
+        text-decoration: none;
+    }
+    .fill i{    
+        font-size: 1.7vmax;
+        color: rgb(0, 153, 255);
+        text-align: center;
+        /* background-color: #454545; */
+    }
+    video{
+        height: 30vmax;
+        width: 30vmax;
+    }
+    .img2 {
+    margin-top: 10px;
+    height: 15vmax;
+    width: 100%;
+    background-image: url("https://www.apple.com/v/home/ba/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_medium.jpg");
+    background-position: center;
+    background-size: cover;
+}
+   
+}
+    
